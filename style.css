@@ -26,7 +26,7 @@ html, body {
 
 .welcome{ 
     margin-top: 12vh;
-    height: 8vh; 
+    height: 7vh; 
 } 
 
 .initializing{ 
@@ -50,12 +50,11 @@ html, body {
 }
 
 .card-container{ 
-    position: relative;
-    margin: 0 5vh; 
+    position: relative; 
 } 
 
 .cardImage{ 
-    margin-top: 1vh; 
+    margin: 1vh auto; 
     width: 40vh; 
     height: auto;
     position: relative;
@@ -64,7 +63,7 @@ html, body {
 
 .cardContent{
     position: absolute;
-    top: 8vh;   /* adjust as needed */
+    top: 12vh;   /* adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     width: 35vh;
@@ -306,4 +305,5 @@ html, body {
 
 
 }
+
 
