@@ -55,7 +55,7 @@ html, body {
 
 .cardImage{ 
     margin: 1vh auto; 
-    width: 80%; 
+    width: 60%; 
     height: auto;
     position: relative;
     z-index: 1; 
@@ -306,6 +306,7 @@ p, .regular{
 
 
 }
+
 
 
 
