@@ -191,7 +191,7 @@ p, h3, .regular{
     background-size: contain;
     background-repeat: no-repeat;
     width: 120px;
-    height: auto;
+    aspect-ratio: 2.5 / 3.7;
 }
 
 #spadeCard{
@@ -199,7 +199,7 @@ p, h3, .regular{
     background-size: contain;
     background-repeat: no-repeat;
     width: 120px;
-    height: auto;
+    aspect-ratio: 2.5 / 3.7;
 }
 
 #heartCard{
@@ -207,7 +207,7 @@ p, h3, .regular{
     background-size: contain;
     background-repeat: no-repeat;
     width: 120px;
-    height: auto;
+    aspect-ratio: 2.5 / 3.7;
 }
 
 #clubCard{
@@ -215,7 +215,7 @@ p, h3, .regular{
     background-size: contain;
     background-repeat: no-repeat;
     width: 120px;
-    height: auto;
+    aspect-ratio: 2.5 / 3.7;
 }
 
 #cardScreen {
@@ -306,6 +306,7 @@ p, h3, .regular{
 
 
 }
+
 
 
 
