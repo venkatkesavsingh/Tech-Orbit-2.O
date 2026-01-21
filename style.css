@@ -135,7 +135,7 @@ p, h3, .regular{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    top: 16vh;
+    top: 17vh;
     left: 50%;
     transform: translateX(-50%);
     width: 35vh;
@@ -190,32 +190,32 @@ p, h3, .regular{
     background: url("Assets/Diamonds.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 108px;
-    height: 156.8px;
+    width: 120px;
+    height: auto;
 }
 
 #spadeCard{
     background: url("Assets/Spade.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 108px;
-    height: 156.8px;
+    width: 120px;
+    height: auto;
 }
 
 #heartCard{
     background: url("Assets/Heart.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 108px;
-    height: 156.8px;
+    width: 120px;
+    height: auto;
 }
 
 #clubCard{
     background: url("Assets/Clubs.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 108px;
-    height: 156.8px;
+    width: 120px;
+    height: auto;
 }
 
 #cardScreen {
@@ -306,6 +306,7 @@ p, h3, .regular{
 
 
 }
+
 
 
 
