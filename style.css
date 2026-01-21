@@ -135,7 +135,7 @@ p, h3, .regular{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    top: 17vh;
+    top: 19vh;
     left: 50%;
     transform: translateX(-50%);
     width: 35vh;
@@ -190,7 +190,7 @@ p, h3, .regular{
     background: url("Assets/Diamonds.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 120px;
+    width: 125px;
     aspect-ratio: 2.5 / 3.7;
 }
 
@@ -198,7 +198,7 @@ p, h3, .regular{
     background: url("Assets/Spade.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 120px;
+    width: 125px;
     aspect-ratio: 2.5 / 3.7;
 }
 
@@ -206,7 +206,7 @@ p, h3, .regular{
     background: url("Assets/Heart.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 120px;
+    width: 125px;
     aspect-ratio: 2.5 / 3.7;
 }
 
@@ -214,7 +214,7 @@ p, h3, .regular{
     background: url("Assets/Clubs.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 120px;
+    width: 125px;
     aspect-ratio: 2.5 / 3.7;
 }
 
@@ -242,7 +242,7 @@ p, h3, .regular{
 
 /* Card image buttons */
 .cardBtn {
-    width: 12.5vh;
+    width: 12vh;
     aspect-ratio: 2.5 / 3.7;
     background-size: contain;
     background-repeat: no-repeat;
@@ -298,29 +298,4 @@ p, h3, .regular{
     color: red;
     border: none;
     cursor: pointer;
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
