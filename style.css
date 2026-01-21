@@ -1,0 +1,307 @@
+html, body { 
+    margin: 0;
+    min-height: 100vh; 
+    background-image: url("ASSETS/Mobile\ Background.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+} 
+
+.screen{
+    overflow: hidden;
+    display: none;
+} 
+
+.screen.active {
+    overflow: hidden;
+    display: block;
+}
+
+#WaitingScreen{
+    text-align: center; 
+    color: black; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.welcome{ 
+    margin-top: 12vh;
+    height: 8vh; 
+} 
+
+.initializing{ 
+    margin: 2vh 0 1vh 0; 
+    font-size: 13px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold; 
+    color: white; 
+} 
+
+.initializing::after { 
+    content: "."; 
+    animation: dots 2.5s steps(4, end) infinite; 
+} 
+
+@keyframes dots {
+    0% { content: "."; } 
+    33% { content: ".."; } 
+    66% { content: "..."; } 
+    100% { content: ""; } 
+}
+
+.card-container{ 
+    position: relative;
+    margin: 0 5vh; 
+} 
+
+.cardImage{ 
+    margin-top: 1vh; 
+    width: 40vh; 
+    height: auto;
+    position: relative;
+    z-index: 1; 
+}
+
+.cardContent{
+    position: absolute;
+    top: 8vh;   /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35vh;
+    font-size: 15px;
+    z-index: 2;
+} 
+
+.regular{
+    margin: 2vh 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+} 
+
+.regular strong{ 
+    color: red;
+    font-weight: bolder;
+} 
+
+.feature{ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 15px; 
+    font-weight: bolder; 
+} 
+
+#enterBtn {
+    width: 75%;
+    height: 5vh;
+    font-size: 2.5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#enterBtn:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+#startQuizScreen{
+    text-align: center; 
+    color: black; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.welcome1{ 
+    margin-top: 12vh; 
+    height: 8vh; 
+}
+
+.card-container1{ 
+    position: relative;
+    margin: 0 5vh; 
+} 
+
+.cardImage1{ 
+    margin-top: 5vh; 
+    width: 40vh; 
+    height: auto;
+    position: relative;
+    z-index: 1; 
+}
+
+.cardContent1{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    top: 21vh;   /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35vh;
+    font-size: 15px;
+    z-index: 2;
+}
+
+#startQuizbtn{
+    width: 75%;
+    height: 5vh;
+    font-size: 2.5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+#suitScreen {
+    margin-top: 25%;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+    text-align: center;
+}
+
+.SelectYourCardTypeImg{
+    margin-bottom: 3vh;
+    align-items: center;
+    width: 54vh;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+    gap: 3vh;
+}
+
+.card4{
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#diamondCard{
+    background: url("Assets/Diamonds.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 156.8px;
+}
+
+#spadeCard{
+    background: url("Assets/Spade.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 156.8px;
+}
+
+#heartCard{
+    background: url("Assets/Heart.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 156.8px;
+}
+
+#clubCard{
+    background: url("Assets/Clubs.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 156.8px;
+}
+
+#cardScreen {
+    height:fit-content;
+    margin: 6vh 0 0 0;
+    align-items: center;
+    text-align: center;
+}
+
+.SelectYourCardImg{
+    align-items: center;
+    width: 54vh;
+}
+
+#cardScreen p{
+    color: white;
+    font-size: 5vh;
+}
+
+/* Card grid (9 cards) */
+#cardScreen .grid {
+    padding: 3vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+/* Card image buttons */
+.cardBtn {
+    width: 15.2vh;
+    height: 22vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Tap effect */
+.cardBtn:active {
+    transform: scale(0.95);
+}
+
+#confirmScreen{
+    margin-top: 12vh;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.ConfirmYourCardImg{
+    margin-left: 2vh;
+    align-items: center;
+    width: 50vh;
+}
+
+#confirmText{
+    margin: 2vh 0 -1vh 0;
+    font-size: 2.25vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+#selectedCardPreview {
+    width: 25vh;
+    aspect-ratio: 2.5 / 3.5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3vh auto;
+    border-radius: 10px;
+}
+
+#confirmBtn {
+    background: white;
+    width: 24vh;
+    height: 5vh;
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    color: red;
+    border: none;
+    cursor: pointer;
+
+}

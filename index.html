@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Nova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Waiting UI-->
+    <div class="screen active" id="WaitingScreen">
+        <img src="Assets/Welcome Msg.webp" class="welcome">
+        <h3 class="initializing">The system is initializing</h3>
+        <div class="card-container">
+            <img class="cardImage" src="ASSETS/Waiting loading.webp"/>
+            <div class="cardContent">
+                <p class="regular">You are not here by chance.<br>Once the game begins, there is <strong class="special"><br>no turning back</strong></p>
+                <p class="feature">Skills. Logic. Speed. Survival.</p>
+                <p class="regular"><strong class="special">Students in Technoland</strong><br> will test how far your mind can go.</p>
+                <p class="regular"><strong class="special">Please wait.</strong><br>The gateway will unlock soon.</p>
+                <button id="enterBtn" disabled>Enter Technoland</button>
+            </div>
+        </div>
+    </div>
+    
+    <!--Start Quiz UI-->
+    <div class="screen" id="startQuizScreen">
+        <img src="Assets/Welcome Msg.webp" class="welcome1">
+        <div class="card-container1">
+            <img class="cardImage1" src="ASSETS/Waiting loading.webp"/>
+            <div class="cardContent1">
+                <h3>Welcome to Quiz Nova!</h3>
+                <p>Get ready to test your knowledge and have fun!</p>
+                <button id="startQuizBtn">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUIT SELECTION -->
+    <div class="screen" id="suitScreen">
+        <img src="Assets/Select your card type.webp" class="SelectYourCardTypeImg">
+        <div class="grid">
+        <button data-suit="diamond" class="card4" id="diamondCard"></button>
+        <button data-suit="spade" class="card4" id="spadeCard"></button>
+        <button data-suit="club" class="card4" id="clubCard"></button>
+        <button data-suit="heart" class="card4" id="heartCard"></button>
+        </div>
+    </div>
+
+    <!-- CARD SELECTION -->
+    <div class="screen" id="cardScreen">
+        <img src="Assets/Select your card.webp" class="SelectYourCardImg">
+        <div id="cardGrid" class="grid"></div>
+    </div>
+
+    <!-- CONFIRMATION -->
+    <div class="screen" id="confirmScreen">
+        <img src="Assets/Confirm Selection.webp" class="ConfirmYourCardImg">
+        <p id="confirmText"></p>
+        <div id="selectedCardPreview"></div>
+        <button id="confirmBtn">Proceed</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
