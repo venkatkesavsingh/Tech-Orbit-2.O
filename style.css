@@ -125,7 +125,7 @@ p, .regular{
 } 
 
 .cardImage1{ 
-    margin-top: 5vh auto; 
+    margin: 5vh auto; 
     width: 70%; 
     height: auto;
     position: relative;
@@ -306,6 +306,7 @@ p, .regular{
 
 
 }
+
 
 
 
