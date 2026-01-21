@@ -63,7 +63,7 @@ html, body {
 
 .cardContent{
     position: absolute;
-    top: 10vh;   /* adjust as needed */
+    top: 7vh;   /* adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     width: 35vh;
@@ -306,6 +306,7 @@ p, .regular{
 
 
 }
+
 
 
 
