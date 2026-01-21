@@ -1,7 +1,7 @@
 html, body { 
     margin: 0;
     min-height: 100vh; 
-    background-image: url("ASSETS/Mobile\ Background.jpg");
+    background-image: url("Assets/Mobile\ Background.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -303,5 +303,6 @@ html, body {
     color: red;
     border: none;
     cursor: pointer;
+
 
 }
