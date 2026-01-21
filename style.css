@@ -135,7 +135,7 @@ p, h3, .regular{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    top: 17vh;   /* adjust as needed */
+    top: 15vh;   /* adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     width: 35vh;
@@ -305,6 +305,7 @@ p, h3, .regular{
 
 
 }
+
 
 
 
