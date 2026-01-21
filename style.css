@@ -135,7 +135,7 @@ p, h3, .regular{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    top: 16vh;   /* adjust as needed */
+    top: 16vh;
     left: 50%;
     transform: translateX(-50%);
     width: 35vh;
@@ -159,8 +159,8 @@ p, h3, .regular{
 
 #suitScreen {
     margin-top: 25%;
-    justify-content: center;   /* vertical center */
-    align-items: center;       /* horizontal center */
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -171,10 +171,11 @@ p, h3, .regular{
 }
 
 .grid {
+    padding: 0 5vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;   /* vertical center */
-    align-items: center;       /* horizontal center */
+    justify-content: center;
+    align-items: center;
     gap: 3vh;
 }
 
@@ -305,6 +306,7 @@ p, h3, .regular{
 
 
 }
+
 
 
 
