@@ -167,11 +167,11 @@ p, h3, .regular{
 .SelectYourCardTypeImg{
     margin-bottom: 3vh;
     align-items: center;
-    width: 54vh;
+    width: 100%;
 }
 
 .grid {
-    padding: 0 5vh;
+    padding: 0 3vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -306,6 +306,7 @@ p, h3, .regular{
 
 
 }
+
 
 
 
