@@ -120,13 +120,12 @@ p, .regular{
 }
 
 .card-container1{ 
-    position: relative;
-    margin: 0 5vh; 
+    position: relative; 
 } 
 
 .cardImage1{ 
     margin: 5vh auto; 
-    width: 70%; 
+    width: 80%; 
     height: auto;
     position: relative;
     z-index: 1; 
@@ -306,6 +305,7 @@ p, .regular{
 
 
 }
+
 
 
 
