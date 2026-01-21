@@ -227,12 +227,7 @@ p, h3, .regular{
 
 .SelectYourCardImg{
     align-items: center;
-    width: 54vh;
-}
-
-#cardScreen p{
-    color: white;
-    font-size: 5vh;
+    width: 100%;
 }
 
 /* Card grid (9 cards) */
@@ -247,8 +242,8 @@ p, h3, .regular{
 
 /* Card image buttons */
 .cardBtn {
-    width: 15.2vh;
-    height: 22vh;
+    width: 12.5vh;
+    aspect-ratio: 2.5 / 3.7;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,6 +301,7 @@ p, h3, .regular{
 
 
 }
+
 
 
 
